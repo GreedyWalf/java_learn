@@ -17,7 +17,7 @@ public class ThreadLockTest {
         new Thread(){
             @Override
             public void run() {
-//                test.insert(Thread.currentThread());
+//                testEquals.insert(Thread.currentThread());
                 test.insert2(Thread.currentThread());
             }
         }.start();
@@ -25,7 +25,7 @@ public class ThreadLockTest {
         new Thread(new Runnable() {
             @Override
             public void run() {
-//                test.insert(Thread.currentThread());
+//                testEquals.insert(Thread.currentThread());
                 test.insert2(Thread.currentThread());
             }
         }).start();

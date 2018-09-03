@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Properties;
 
-public class SqlUtil {
+public class ConnectionUtil {
 
     private static String password;
     private static String userName;
@@ -16,7 +16,7 @@ public class SqlUtil {
     static {
         try {
             Properties properties = new Properties();
-            InputStream inputStream = SqlUtil.class.getClassLoader().getResourceAsStream("db.properties");
+            InputStream inputStream = ConnectionUtil.class.getClassLoader().getResourceAsStream("db.properties");
             properties.load(inputStream);
 
             password = (String) properties.get("jdbc.password");

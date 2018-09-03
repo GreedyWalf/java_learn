@@ -5,7 +5,7 @@ import java.nio.charset.Charset;
 
 public class StringParse {
     public static void main(String[] args) throws UnsupportedEncodingException {
-//        test();
+//        testEquals();
         stringMethod();
     }
 

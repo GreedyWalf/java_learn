@@ -1,16 +1,11 @@
 package proxy;
 
 
-import jdk.nashorn.internal.runtime.regexp.joni.EncodingHelper;
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;
-import sun.plugin.javascript.navig.LinkArray;
 
-import java.lang.reflect.Array;
-import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
-import java.lang.reflect.Proxy;
 import java.util.ArrayList;
 import java.util.List;
 
