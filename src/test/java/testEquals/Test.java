@@ -1,8 +1,4 @@
-package test;
-
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.Random;
+package testEquals;
 
 public class Test {
 
