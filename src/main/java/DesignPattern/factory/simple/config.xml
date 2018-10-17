@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- xml中配置需要使用的Chart类型，当需要更换Chart类型时，修改xml配置即可，满足"开闭原则" -->
+<config>
+    <chartType>pie</chartType>
+</config>
