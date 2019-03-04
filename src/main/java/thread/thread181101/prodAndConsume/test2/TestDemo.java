@@ -19,7 +19,6 @@ public class TestDemo {
 
 
 class Depot {
-
     //定义仓库容量
     private int capacity;
     //仓库中实际产品数（多线程共享，属于竞争资源）
